@@ -1,0 +1,23 @@
+GraphicsWindow.Height = 500
+GraphicsWindow.Width = 500
+GraphicsWindow.BackgroundColor = "White"
+GraphicsWindow.Title = "Exercise 7!"
+GraphicsWindow.PenWidth = 5
+GraphicsWindow.PenColor = "Blue"
+GraphicsWindow.DrawLine(10,10,350,10)
+GraphicsWindow.PenWidth = 10
+GraphicsWindow.PenColor = "Red"
+GraphicsWindow.DrawLine(10,10,10,350)
+GraphicsWindow.PenWidth = 15
+GraphicsWindow.PenColor = "Yellow"
+GraphicsWindow.DrawLine(10,350,350,350)
+GraphicsWindow.PenWidth = 20
+GraphicsWindow.PenColor = "Green"
+GraphicsWindow.DrawLine(350,10,350,350)
+GraphicsWindow.FontItalic=("This")
+GraphicsWindow.DrawBoundText(50, 50, 1000, "This")
+GraphicsWindow.DrawBoundText(150, 150, 50, "box!")
+GraphicsWindow.DrawBoundText(50, 150, 200, "my")
+GraphicsWindow.DrawBoundText(150, 50, 300, "is")
+GraphicsWindow.SetPixel(75,75,"Black")
+GraphicsWindow.Show()

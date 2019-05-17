@@ -1,0 +1,9 @@
+TextWindow.Write("What is your name?: ") 'This allows the user to enter their name
+Name = TextWindow.Read() 'This assigns what the user types to the variable Name
+TextWindow.Write("Hi there, " + Name + "! What time do you think it is? ") 'This prints text and allows the user to guess the time
+Time = TextWindow.Read() 'This assigns what the user types to the variable Time
+TextWindow.Write("Well " + Name + ", per your computer, the time now is actually: ") 'This prints text
+PrintTime() 'This names the subroutine
+Sub PrintTime 'This starts the subroutine
+TextWindow.WriteLine(Clock.Time) 'This accesses the computer's clock and returns the time
+EndSub 'This ends the subroutine

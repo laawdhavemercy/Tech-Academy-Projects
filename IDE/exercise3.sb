@@ -1,0 +1,6 @@
+TextWindow.Title=("Music Music Music")
+TextWindow.Top=3
+TextWindow.Write("How many keys are there on a Piano?:")
+keys=TextWindow.ReadNumber()
+Piano=(keys*0)+12
+TextWindow.WriteLine("The amount of keys a piano has are only " + Piano)

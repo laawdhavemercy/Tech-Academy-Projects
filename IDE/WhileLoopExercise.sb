@@ -1,0 +1,5 @@
+Amount=7
+While (Amount < 1000000)
+TextWindow.WriteLine(Amount)
+Amount = Amount + 7
+EndWhile

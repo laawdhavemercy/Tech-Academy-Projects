@@ -1,0 +1,3 @@
+If (5 < 10) Then
+TextWindow.WriteLine("Five is less than 10.")
+EndIf

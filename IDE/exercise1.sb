@@ -1,0 +1,4 @@
+TextWindow.WriteLine("Hit Any Key For A Suprise")
+TextWindow.Pause()
+TextWindow.BackgroundColor="Yellow"
+TextWindow.ForegroundColor="Blue"

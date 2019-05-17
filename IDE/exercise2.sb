@@ -1,0 +1,4 @@
+TextWindow.CursorTop = 3
+TextWindow.Write("How many pairs of shoes do you own?")
+shoes=TextWindow.Read()
+TextWindow.WriteLine("You own " + shoes + "pairs of shoes?! That's a lot of shoes!")

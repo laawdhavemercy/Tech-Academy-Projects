@@ -1,0 +1,15 @@
+TextWindow.Write("Type a fraction out as a decimal: ")
+Number=TextWindow.ReadNumber()
+Program.Delay(2000)
+TextWindow.Write("Now we will round your number! ...")
+Program.Delay(2000)
+TextWindow.Write("Your rounded number is: " + Math.Ceiling(Number))
+Program.Delay(2000)
+Remainder=Math.Remainder(Math.Round(Number),2)
+If (Remainder = 0) Then
+TextWindow.WriteLine(" This number is even!")
+Program.Delay(2000)
+Else 
+  TextWindow.WriteLine("This number is odd!")
+  Program.Delay(2000)
+  EndIf

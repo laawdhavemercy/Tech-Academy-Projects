@@ -1,0 +1,6 @@
+Begin:
+A=50
+If A>25 Then 
+  TextWindow.WriteLine("50 is more than 25!")
+  Goto Begin
+  EndIf

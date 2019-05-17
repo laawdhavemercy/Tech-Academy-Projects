@@ -1,0 +1,7 @@
+Turtle.Show()
+Turtle.Move(55)
+Turtle.TurnRight()
+Turtle.Move(85)
+Turtle.Angle=45
+Turtle.TurnLeft()
+Turtle.MoveTo(300,670)

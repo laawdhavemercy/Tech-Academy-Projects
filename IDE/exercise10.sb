@@ -1,0 +1,6 @@
+For X = 1 To 4
+Turtle.Move(75)
+Turtle.Turn(90)
+GraphicsWindow.PenColor = GraphicsWindow.GetRandomColor()
+GraphicsWindow.BackgroundColor = GraphicsWindow.GetRandomColor()
+EndFor

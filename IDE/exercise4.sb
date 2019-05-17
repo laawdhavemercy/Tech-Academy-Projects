@@ -1,0 +1,3 @@
+If (1 < 100) Then
+TextWindow.WriteLine("I made my own If Statement!")
+EndIf

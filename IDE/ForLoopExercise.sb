@@ -1,0 +1,7 @@
+B=500000
+Start:
+TextWindow.WriteLine(B)
+B=B-7
+If (0<B) Then
+  Goto Start
+  EndIf

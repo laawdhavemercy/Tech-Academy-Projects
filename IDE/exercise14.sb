@@ -1,0 +1,12 @@
+Ninja["Donetello"]["Color"] = "Purple"
+Ninja["Donetello"]["Weapon"] = "Bo Staff"
+Ninja["Ralphael"]["Color"] = "Red"
+Ninja["Ralphael"]["Weapon"] = "Dual Sais"
+Ninja["Leonardo"]["Color"] = "Blue"
+Ninja["Leonardo"]["Weapon"] = "Dual Katanas"
+Ninja["Michaelangelo"]["Color"] = "Orange"
+Ninja["Michaelangelo"]["Weapon"] = "Dual Nun-Chuks"
+TextWindow.Write("Name a Ninja Turtle?: ")
+Name = TextWindow.Read()
+TextWindow.WriteLine("Their mask color is: " + Ninja[Name]["Color"])
+TextWindow.WriteLine("Their favorite weapon is: " + Ninja[Name]["Weapon"])

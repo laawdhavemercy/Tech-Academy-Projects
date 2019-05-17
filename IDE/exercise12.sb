@@ -1,0 +1,26 @@
+TextWindow.Write("Pick a number between 1-10: ")
+Number_1 = TextWindow.ReadNumber()
+Program.Delay(1500)
+TextWindow.Write("Pick a diffrent number now: ")
+Number_2 = TextWindow.ReadNumber()
+Program.Delay(1500)
+TextWindow.Write("And another number: ")
+Number_3 = TextWindow.ReadNumber()
+Program.Delay(1500)
+TextWindow.Write("Okay, last number! and I'll tell you which is the largest: ")
+Number_4 = TextWindow.ReadNumber()
+Largest_Number()
+Program.Delay(1500)
+TextWindow.WriteLine("The largest number is: " + Largest_Number)
+Program.Delay(1500)
+Sub Largest_Number
+If (Number_1 > Number_2 And Number_1 >Number_3 And Number_1 > Number_4) Then
+Largest_Number = Number_1
+ElseIf (Number_2 > Number_1 And Number_2 >Number_3 And Number_2 > Number_4) Then
+Largest_Number = Number_2
+ElseIf (Number_3 > Number_1 And Number_3 >Number_2 And Number_3 > Number_4) Then
+Largest_Number = Number_3
+Else
+  Largest_Number = Number_4
+EndIf
+  EndSub

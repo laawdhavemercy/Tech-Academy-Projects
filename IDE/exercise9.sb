@@ -1,0 +1,11 @@
+TextWindow.Write("What is your name?: ")
+Name = TextWindow.Read()
+Program.Delay(2000)
+TextWindow.Write("Do you know what time it is, " + Name + "?")
+Time = TextWindow.Read()
+Program.Delay(2000)
+TextWindow.Write("According to this computer, " + Name + ", the current time: ")
+PrintTime()
+Sub PrintTime
+TextWindow.WriteLine(Clock.Time)
+EndSub
