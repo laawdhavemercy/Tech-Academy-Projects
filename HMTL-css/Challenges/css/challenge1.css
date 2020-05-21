@@ -1,0 +1,74 @@
+img {
+	border: 4px dashed red;
+	border-radius: 75%;
+	filter:drop-shadow(10px 10px 12px gray);
+	}
+
+table,th,td {
+	border: 2px solid black;
+	padding: 5px;
+	text-align: center;
+}
+
+container {
+	position:relative;
+	text-align:center;
+	color:purple;
+}
+
+center {
+	position:relative;
+	bottom: 5px;
+	right: 10px;
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  position: center;
+  top: 0; /
+  width: 100%; 
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: black;
+  color: white;
+}
+
+/* Main content */
+.main {
+  margin-top: 20px; /* Add a top margin to avoid content overlay */
+}
+
+.column {
+  float: left;
+  width: 50%;
+  height: 100px;
+  width: 50%;
+  background-color: powderblue;
+  color: yellow;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.paragraph:hover {
+	background-color: green;
+}
+
